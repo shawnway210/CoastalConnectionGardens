@@ -47,5 +47,5 @@ bcrypt = Bcrypt(app)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['PERMANENT_SESSION_LIFETIME'] = 1600  # Session timeout in seconds (30 minutes)
 app.config['SESSION_USE_SIGNER'] = True
-app.config['SESSION_KEY_PREFIX'] = 'trailerWash'
+app.config['SESSION_KEY_PREFIX'] = 'coastalConnectionGardens'
 Session(app)

@@ -8,7 +8,8 @@ from datetime import datetime
 # Local imports
 from config import app, db
 # Add your model imports
-from models import db, Product, Price, CostOfInventory, Inventory, Customer, CustomerOrder, Sales
+from models import db, Product, Price
+# , CostOfInventory, Inventory, Customer, CustomerOrder, Sales
 
 @app.route('/')
 def index():
